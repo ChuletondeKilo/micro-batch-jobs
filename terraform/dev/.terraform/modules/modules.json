@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"main","Source":"../modules","Dir":"../modules"},{"Key":"main.s3","Source":"./s3","Dir":"../modules/s3"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"main","Source":"../modules","Dir":"../modules"},{"Key":"main.dynamodb","Source":"./dynamodb","Dir":"../modules/dynamodb"},{"Key":"main.s3","Source":"./s3","Dir":"../modules/s3"}]}

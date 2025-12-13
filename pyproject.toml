@@ -1,9 +1,9 @@
 [project]
-name = "micro-batch-jobs"
+name = "micro-batch-jobs-workspace"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "Monorepo workspace for micro-batch-jobs"
 requires-python = ">=3.12"
-dependencies = [
-    "terraform-local>=0.24.1",
-]
+dependencies = []
+
+[tool.uv.workspace]
+members = ["job-generator", "job-dispatcher", "worker"]
